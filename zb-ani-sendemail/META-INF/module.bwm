@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_l1p54HD8EeqhQqKb5mqhog" targetNamespace="http://tns.tibco.com/bw/composite/zb-ani-sendemail" name="zb-ani-sendemail" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_mhj9oHD8EeqhQqKb5mqhog" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mhu8wHD8EeqhQqKb5mqhog" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mhz1QHD8EeqhQqKb5mqhog" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mh4GsHD8EeqhQqKb5mqhog" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mh8YIHD8EeqhQqKb5mqhog" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_mh_bcHD8EeqhQqKb5mqhog" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_miDF0HD8EeqhQqKb5mqhog" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_miHXQHD8EeqhQqKb5mqhog" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_miKakHD8EeqhQqKb5mqhog" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_mN9sMHD8EeqhQqKb5mqhog" name="ComponentSendEmail" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_mN-TQHD8EeqhQqKb5mqhog" processName="zb-ani-sendemail.SendEmail"/>
+  </sca:component>
+</sca:composite>
